@@ -1,5 +1,5 @@
 body{
-    background-color: #00D3EB;
+    background-color: slategray;
 }
 
 h1 {
@@ -9,8 +9,9 @@ h1 {
     margin-top: 15%;
 }
 
-button {
-    background-color: #00D3EB;
+
+#Add {
+    background-color: slategray;
     border: solid white 1px;
     padding: 0.3rem 1.5rem;
     color: white;
@@ -20,9 +21,19 @@ button {
     transition-duration: 0.4s;
 }
 
-button:hover{
+#Add:hover{
     background-color: white;
-    color: #00D3EB;
+    color: slategray;
+}
+
+#more {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+#modalButton {
+
 }
 
 .container {
@@ -30,3 +41,5 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+
+
